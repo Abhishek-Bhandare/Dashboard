@@ -1,0 +1,37 @@
+.customer-feedback {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.customer-feedback h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.feedback-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-item {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.feedback-item h4 {
+  margin: 0;
+  color: #61dafb;
+}
+
+.feedback-item p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .customer-feedback {
+    padding: 15px;
+  }
+}

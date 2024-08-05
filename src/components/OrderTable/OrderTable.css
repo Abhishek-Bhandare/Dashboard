@@ -1,0 +1,44 @@
+.order-table {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.order-table h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #444;
+}
+
+tr:nth-child(even) {
+  background: #20232a;
+}
+
+tr:hover {
+  background: #444;
+}
+
+@media (max-width: 768px) {
+  .order-table {
+    padding: 15px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}

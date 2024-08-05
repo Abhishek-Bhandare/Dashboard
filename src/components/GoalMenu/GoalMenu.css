@@ -1,0 +1,33 @@
+.goal-menu {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.goal-menu h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.goal-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.goal-item {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.goal-item h4 {
+  margin: 0;
+  color: #61dafb;
+}
+
+@media (max-width: 768px) {
+  .goal-menu {
+    padding: 15px;
+  }
+}

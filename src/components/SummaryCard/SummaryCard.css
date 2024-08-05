@@ -1,0 +1,42 @@
+.summary-card {
+  display: flex;
+  align-items: center;
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.card-icon {
+  font-size: 40px;
+  color: #61dafb;
+  margin-right: 15px;
+}
+
+.card-info h3 {
+  margin: 0;
+  color: #61dafb;
+}
+
+.card-info p {
+  margin: 5px 0;
+}
+
+.growth {
+  font-weight: bold;
+}
+
+.growth.positive {
+  color: green;
+}
+
+.growth.negative {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .summary-card {
+    padding: 15px;
+  }
+}

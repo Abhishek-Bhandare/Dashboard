@@ -1,0 +1,38 @@
+.activity-chart {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.activity-chart h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+  background: #20232a;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bar {
+  background: #61dafb;
+  width: 8%;
+  margin: 0 1%;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .activity-chart {
+    padding: 15px;
+  }
+
+  .chart {
+    height: 150px;
+  }
+}
